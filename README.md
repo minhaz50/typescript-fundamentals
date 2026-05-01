@@ -14,7 +14,7 @@ It will open tsconfig file. Now comment out of rootDir and outDir. You can keep 
 
 TypeScript extends JavaScript by adding static types. Here's a comprehensive breakdown of TypeScript data types:
 
-### Primitive Types
+## Primitive Types
 
 ## string
 
@@ -49,3 +49,44 @@ symbol
 Unique, immutable identifiers
 
 let uniqueId: symbol = Symbol("id");
+
+# Non Primitive Data Types
+
+## array
+
+Two syntax options:
+
+let numbers: number[] = [1, 2, 3];
+let strings: Array<string> = ["a", "b", "c"];
+let mixed: (string | number)[] = [1, "two", 3];
+
+## tuple
+
+Fixed-length array with specific types
+
+let person: [string, number] = ["Alice", 30];
+let rgb: [number, number, number] = [255, 0, 128];
+
+## object
+
+let user: { name: string; age: number } = {
+name: "Bob",
+age: 25
+};
+
+## enum
+
+Named constant values
+
+enum Color {
+Red, // 0
+Green, // 1
+Blue // 2
+}
+
+enum Status {
+Active = "ACTIVE",
+Inactive = "INACTIVE"
+}
+
+let myColor: Color = Color.Red;
