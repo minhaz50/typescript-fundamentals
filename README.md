@@ -2,7 +2,7 @@
 
 ## How to install typescript
 
-## To install typescript globally. Run this command in terminal : ### npm install -g typescript
+## To install typescript globally. Run this command in terminal : npm install -g typescript
 
 ### Now command [ tsc --init ] in terminal.
 
