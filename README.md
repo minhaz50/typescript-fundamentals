@@ -37,15 +37,17 @@ let binary: number = 0b1010; <br/>
 
 true or false values
 
-let isActive: boolean = true;
-let isComplete: boolean = false;
+let isActive: boolean = true; <br/>
+let isComplete: boolean = false; <br/>
 
 ## bigint
 
 For very large integers (ES2020+)
 
-let largeNumber: bigint = 9007199254740991n;
-symbol
+let largeNumber: bigint = 9007199254740991n; <br/>
+
+## symbol <br/>
+
 Unique, immutable identifiers
 
 let uniqueId: symbol = Symbol("id");
@@ -56,37 +58,37 @@ let uniqueId: symbol = Symbol("id");
 
 Two syntax options:
 
-let numbers: number[] = [1, 2, 3];
-let strings: Array<string> = ["a", "b", "c"];
-let mixed: (string | number)[] = [1, "two", 3];
+let numbers: number[] = [1, 2, 3]; <br/>
+let strings: Array<string> = ["a", "b", "c"]; <br/>
+let mixed: (string | number)[] = [1, "two", 3]; <br/>
 
 ## tuple
 
-Fixed-length array with specific types
+Fixed-length array with specific types <br/>
 
-let person: [string, number] = ["Alice", 30];
+let person: [string, number] = ["Alice", 30]; <br/>
 let rgb: [number, number, number] = [255, 0, 128];
 
 ## object
 
-let user: { name: string; age: number } = {
-name: "Bob",
-age: 25
+let user: { name: string; age: number } = { <br/>
+name: "Bob",<br/>
+age: 25<br/>
 };
 
 ## enum
 
 Named constant values
 
-enum Color {
-Red, // 0
-Green, // 1
-Blue // 2
+enum Color {<br/>
+Red, // 0 <br/>
+Green, // 1 <br/>
+Blue // 2 <br/>
 }
 
-enum Status {
-Active = "ACTIVE",
-Inactive = "INACTIVE"
+enum Status {<br/>
+Active = "ACTIVE",<br/>
+Inactive = "INACTIVE"<br/>
 }
 
 let myColor: Color = Color.Red;
