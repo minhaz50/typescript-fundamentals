@@ -20,18 +20,18 @@ TypeScript extends JavaScript by adding static types. Here's a comprehensive bre
 
 Text data, denoted by quotes
 
-let name: string = "John";
-let greeting: string = 'Hello';
+let name: string = "John"; <br />
+let greeting: string = 'Hello'; <br />
 let template: string = `Hi ${name}`;
 
 ## number
 
 All numbers (integers, floats, positive, negative)
 
-let age: number = 25;
-let price: number = 99.99;
-let hex: number = 0xf00d;
-let binary: number = 0b1010;
+let age: number = 25; <br/>
+let price: number = 99.99; <br/>
+let hex: number = 0xf00d; <br/>
+let binary: number = 0b1010; <br/>
 
 ## boolean
 

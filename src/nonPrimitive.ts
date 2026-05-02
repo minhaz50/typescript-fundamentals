@@ -39,6 +39,6 @@ let user: {
   age: 34,
 };
 
-user.organization = "Google";
+// user.organization = "Google"; It will show an error in vscode but it will give the output : Google . Becase js doesn't have a readonly keyword. readonly is typescript type system feature only.
 
 console.log(user);
