@@ -47,3 +47,7 @@ const greetArrow = (name: string, title?: string): string => {
 };
 
 console.log(greetArrow("Sir", "Assalamualaikum"));
+
+// Returing object literal (needs parameter)
+
+const createUser = (name: string, age: number) => ({});
