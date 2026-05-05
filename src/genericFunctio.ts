@@ -56,3 +56,25 @@ const numberArray = wrapInArray(5); // number[]
 const stringArary = wrapInArray("Hello"); // string []
 
 //
+const addStudentToCourse = <T>(studentInfo: T) => {
+  return {
+    course: "Next Level",
+    ...studentInfo,
+  };
+};
+
+const student1 = {
+  id: 123,
+  name: "Minhaz",
+  hasLaptot: true,
+};
+
+const student2 = {
+  id: 321,
+  name: "Alice Bell",
+  hasCar: true,
+  isMarried: true,
+};
+
+const resultTwo = addStudentToCourse(student2);
+console.log(resultTwo);
